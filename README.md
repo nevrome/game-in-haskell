@@ -5,7 +5,7 @@ code with [https://leanpub.com/gameinhaskell](https://leanpub.com/gameinhaskell)
 I recommend using a sandbox. clone the repo, and then
 
     cabal sandbox init
-    cabal install --only-dependencies
+    cabal install --allow-newer --force-reinstalls --only-dependencies
     cabal build
 
 ## Chapter 1

@@ -176,7 +176,7 @@ test-suite properties
   main-is:             Properties.hs
   hs-source-dirs:      test
   build-depends:       base >=4.8 && <4.9
-                     , QuickCheck                 >= 2.4
+                     , QuickCheck                 >= 2.9.2
                      , test-framework             >= 0.6
                      , test-framework-quickcheck2 >= 0.2
                      , test-framework-th          >= 0.2
